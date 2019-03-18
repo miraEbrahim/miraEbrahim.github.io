@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+#flex-container /*-- Flex parent element --*/{
+    background-color: #444;
+    /*- set to 100% of screen height -*/
+    height: 100vh;
+    /*- make it flexbox -*/
+    display: flex;
+    /*- horizantly align items to center -*/
+    justify-content: center;
+    /*- vertically align items to center -*/
+    align-items: center;
+    /* wrap items when its too big */
+    flex-wrap: wrap;
+    /* line items vertically */
+    flex-direction: column;
+}
+
+.inner_center {
+    padding: 0.5em;
+    margin: 0.5em;
+    /*- Center text -*/
+    text-align: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: "Raleway","sans-serif"
+}
+
+.title span {
+    color: #ff4081;
+    font-weight: 700;
+    font-family: "Raleway","sans-serif"
+}
+
+.sub-title {
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Raleway","sans-serif"
+}
+
+.white-fas {
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+.fas-white {
+    font-size: 1em;
+    text-transform: capitalize;
+    padding-left: 0.5em;
+
+}
+
+.fas-white :hover {
+    color:#ff4081; 
+}
+
