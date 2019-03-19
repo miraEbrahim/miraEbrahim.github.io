@@ -183,3 +183,11 @@ label {
 .v-text span {
   color: #ff4081;
 }
+
+
+.fa-green {
+  color: #CEEC97;
+  font-size: 1.5em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
