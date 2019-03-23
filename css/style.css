@@ -31,6 +31,7 @@ ul {
 }
 
 
+
 .inner-center {
     padding-top: 150px;
     margin: 0.5em;
@@ -68,7 +69,8 @@ ul {
     line-height: 1.5em;
     font-size: 1em;
     font-weight: 400;
-    font-family: "Raleway","sans-serif"
+    font-family: "Raleway","sans-serif";
+    padding-bottom: 2em;
 }
 
 /* FontAwesome Style */
@@ -81,6 +83,36 @@ ul {
     color: #ff4081;
     font-size: 1.5em;
     padding: 1em;
-    cursor: pointer;
+    text-decoration: none;
 }
 
+.primary-btn{
+    background-color: transparent;
+    border-radius: 1em;
+    border-color: #ff4081;
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #ff4081;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border-radius: 1em;
+    border-color: #CEEC97;
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #CEEC97;
+}
+
+.primary-btn a {
+    text-decoration: none;
+    color: #ff4081;
+}
+
+.primary-btn:hover {
+    background-color: #fff;
+}
