@@ -68,9 +68,10 @@ ul {
     text-align: center;
     line-height: 1.5em;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Raleway","sans-serif";
     padding-bottom: 2em;
+    width: 600px;
 }
 
 /* FontAwesome Style */
