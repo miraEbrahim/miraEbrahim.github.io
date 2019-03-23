@@ -42,8 +42,6 @@ ul {
 .inner-fa {
     padding-top: 150px;
     align-self: center;
-    padding-right: 0.5em;
-    flex-wrap: nowrap;
 }
 
 /**-- Text Styles --**/
