@@ -85,6 +85,10 @@ ul {
     text-decoration: none;
 }
 
+.pink:hover {
+    color: #CEEC97;
+}
+
 .primary-btn{
     background-color: transparent;
     border-radius: 1em;
@@ -107,12 +111,16 @@ ul {
     color: #CEEC97;
 }
 
+.secondary-btn:hover {
+    background-color: #CEEC97;
+}
+
 .secondary-btn a {
     text-decoration: none;
     color: #CEEC97;
 }
 
 .secondary-btn a:hover {
-    background-color: #CEEC97;
-    color: white;
+    color: #ff4081;
 }
+
