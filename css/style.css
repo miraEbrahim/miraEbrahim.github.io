@@ -101,17 +101,18 @@ ul {
     border-radius: 1em;
     border-color: #CEEC97;
     border-style: solid;
-    width: 100px;
+    width: 150px;
     height: 30px;
     text-transform: uppercase;
     color: #CEEC97;
 }
 
-.primary-btn a {
+.secondary-btn a {
     text-decoration: none;
-    color: #ff4081;
+    color: #CEEC97;
 }
 
-.primary-btn:hover {
-    background-color: #fff;
+.secondary-btn a:hover {
+    background-color: #CEEC97;
+    color: white;
 }
