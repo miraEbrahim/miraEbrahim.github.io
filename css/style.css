@@ -111,6 +111,10 @@ ul {
     color: #CEEC97;
 }
 
+.secondary-btn:hover{
+    border-color: #ff4081;
+}
+
 
 .secondary-btn a {
     text-decoration: none;
