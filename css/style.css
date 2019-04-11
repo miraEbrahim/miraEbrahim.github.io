@@ -111,9 +111,10 @@ ul {
     color: #CEEC97;
 }
 
-.secondary-btn:hover {
-    background-color: #CEEC97;
+.secondary-btn:hover{
+    border-color: #ff4081;
 }
+
 
 .secondary-btn a {
     text-decoration: none;
@@ -121,6 +122,8 @@ ul {
 }
 
 .secondary-btn a:hover {
-    color: #ff4081;
+    color: #FF4081;
 }
+
+
 
