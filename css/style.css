@@ -78,15 +78,25 @@ ul {
     font-size: 2em;
 }
 
-.pink {
-    color: #ff4081;
+
+.lime {
+    color: #CEEC97;
     font-size: 1em;
-    padding: 1em;
     text-decoration: none;
+    padding: 1em;
 }
 
-.pink:hover {
-    color: #CEEC97;
+
+.pink {
+    color: #ff4081;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Raleway","sans-serif";
+}
+
+.lime:hover {
+    color: #ff4081;
 }
 
 .primary-btn{
