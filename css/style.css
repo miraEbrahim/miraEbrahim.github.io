@@ -86,6 +86,24 @@ ul {
     padding: 1em;
 }
 
+.pink-text {
+    color: #ff4081;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.pink-text:hover{
+    color:#fff;
+}
+
+.white {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Raleway","sans-serif";
+}
 
 .pink {
     color: #ff4081;
