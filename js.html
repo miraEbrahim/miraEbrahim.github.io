@@ -1,0 +1,11 @@
+//calculate the sum of numbers in an array of numbers with a for loop
+let arr = [1,9.-19,3,5,3,7,14,91]
+function sum(input){
+    var total = 0, i;
+for(i in input){
+total += input[i];
+}
+return total
+}
+
+arr.reduce((a, b) => a + b, 0)
