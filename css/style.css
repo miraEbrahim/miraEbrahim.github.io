@@ -121,13 +121,20 @@ ul {
     color: #CEEC97;
 }
 
-.secondary-btn:hover .primary-btn:hover{
-    border-color: #fff;
+.primary-btn:hover{
+    border-color: #ff4081;
+    background-color: #ff4081;
+    color:#fff;
+}
+
+.secondary-btn:hover {
+    border-color: #CEEC97;
+    background-color: #CEEC97;
     color:#fff;
 }
 
 
-.secondary-btn a, .primary-btn a {
+.secondary-btn:hover a, .primary-btn:hover a {
     text-decoration: none;
     color: #fff;
 }
